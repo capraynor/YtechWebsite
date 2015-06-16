@@ -346,7 +346,7 @@
             // if scrolling down, make sure a fractional change to the
             // scroll position isn't rounded away when the scrollbar's CSS is set
             // this flooring of delta would happened automatically when
-            // bar.css is set below, but we floor here for clarity
+            // bar.stylesheet is set below, but we floor here for clarity
             delta = (y > 0) ? Math.ceil(delta) : Math.floor(delta);
 
             // scroll the scrollbar
