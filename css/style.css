@@ -69,7 +69,8 @@ p {
 /************** header css ******************/
 
 #header_area {
-    background: url(../images/background.jpg);
+    background: url(../images/bluebackground.jpg);
+    /*background-color: #2e3f69;*/
     padding-top: 35px;
     background-size: cover;
     background-position: center center
@@ -244,7 +245,7 @@ p {
 }
 
 #Experience_area {
-    background: #353535;
+    background: #2e3f69;
     color: #fff
 }
 
